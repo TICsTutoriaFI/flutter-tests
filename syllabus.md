@@ -2,7 +2,7 @@
 
 Installing Flutter SDK (following documentation)
 
-## Basic
+## Dart
 
 ### Hello world
 
@@ -42,6 +42,28 @@ Verify if the user can use try-catch blocks
 
 Given some strings return either true or false if the string is a number
 
+### Object treatment
+
+#### Objective
+
+Verify if the user knows how to access object attributes and user null safety
+
+#### Exercise
+
+Given an object called `User`:
+
+```dart
+class User {
+  final String name;
+  final String firstSurname;
+  final String? secondSurname;
+
+  User({required this.name, required this.firstSurname, this.secondSurname});
+}
+
+Make a function that returns the full name of the user
+```
+
 ### Consuming an API using Dio
 
 #### Objective
@@ -50,9 +72,11 @@ Verify if the user can import a library, learn from documentation and use a libr
 
 #### Exercise
 
-Using [Dio](https://pub.dev/packages/dio) make a get petition to `https://goweather.herokuapp.com/weather/Toluca` and return a string like:
+Using [Dio](https://pub.dev/packages/dio) make a get petition to `https://api.nationalize.io/?name=NAME` and return a string like:
 
-`DESCRIPTION: TEMPERATURE`
+`NAME: NATIONALITY - PROBABILITY`
+
+The [Nationalize API](https://nationalize.io/documentation)
 
 ### Consuming a structured API using Dio
 
@@ -68,3 +92,15 @@ Using [Dio](https://pub.dev/packages/dio) make a petition to `http://numbersapi.
 - Number: Integer
 
 The [Numbers API](http://numbersapi.com/)
+
+## Flutter
+
+### Hello world
+
+#### Objective
+
+Verify if the user correctly installed the Flutter SDK, its dependencies and can run tests
+
+#### Exercise
+
+Run the provided program and change the content of a text widget to `Hello world from Flutter`
