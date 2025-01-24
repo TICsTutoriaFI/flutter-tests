@@ -10,7 +10,7 @@ Modify the `User` class in a way that it includes the following attributes:
 - `firstSurname`
 - `secondSurname`
 
-Then, make a constructor where the attribute `secondSurname` is optional but still accessible if needed (use null safety features). So it can be called:
+Then, make a constructor where the attribute `secondSurname` is optional but still accessible if needed (use null safety features) [check constructors](https://dart.dev/language/constructors#instance-variable-initialization). So it can be called:
 
 ```dart
 User user = User(name: "John", firstSurname: "Doe");
