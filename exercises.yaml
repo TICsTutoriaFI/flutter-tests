@@ -9,4 +9,4 @@
 # The name should be in kebab-case
 # The tests must be inside `tests.dart`
 exercises:
-  - hello-world-dart
+  - hw-dart
