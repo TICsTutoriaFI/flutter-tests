@@ -1,0 +1,12 @@
+# This file contains the configuration for each exercise
+# Every exercise must be listed here, if not it cannot be run
+# by the CLI.
+#
+# Each exercise name must be unique, if not,
+# the CLI will use the first in this list.
+#
+# The name of the exercise must be the same as the folder inside lib/
+# The name should be in kebab-case
+# The tests must be inside `tests.dart`
+exercises:
+  - hello-world-dart
