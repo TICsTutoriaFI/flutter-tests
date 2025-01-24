@@ -11,3 +11,4 @@
 exercises:
   - hw-dart
   - palindrome
+  - num-parse
