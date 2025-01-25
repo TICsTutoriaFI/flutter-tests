@@ -20,13 +20,15 @@ dart run exam test <folder>
 
 Where `<folder>` is the name of the parent folder which contain your `main.dart` file. This method should be preferred as it manages automagically the paths.
 
-To send your exercise you should login with the given credentials and server from your tutor. This step is done once unless you delete the `flutter-tests` folder.
+To send your exercise you should login with the given credentials and server from your tutor. This step is done once unless you delete the `flutter-tests` folder or the `.env.yaml` file.
 
 ```bash
 dart run exam login <user> <password> <server>
 ```
 
 Once you are done with your exercise and are ready to send your answer use:
+
+Note: **Any skipped tests won't be sent, make sure to set to false the skip attribute**
 
 ```bash
 dart run exam send <folder>
